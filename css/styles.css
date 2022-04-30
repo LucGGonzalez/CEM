@@ -1,7 +1,6 @@
-/* html{
-    font-size: 62.5%;
-} */
-
+*{
+    font-family: Old English;
+}
 
 /*---HEADER---*/
 
@@ -32,41 +31,30 @@ nav a{
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    margin-inline: 10px;
+    margin-inline: 20px;
+    letter-spacing: 3px;
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
 
 /*---MAIN---*/
 
-.main {
+.maing {
     background-image: url(../images/IMAGENES/IMG_5881.JPG);
-    /* background-image: linear-gradient(rgb(85, 85, 85), rgb(170, 170, 170)); */
     height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
 }
 
-/* .roadmap{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.bckcem{
+    background-image: url(../images/IMAGENES/1.jpg);
+    /* height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; */
 }
 
-.nft{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .reel {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-} */
 
 /* .iframe{
     position: relative;
@@ -226,3 +214,8 @@ footer {
 }
 
 /*---MEDIAQUERIES---*/
+
+@font-face{
+    font-family: Old English;
+    src: url(../font/OLDENGL.TTF);
+}
