@@ -55,6 +55,13 @@ nav a{
     background-size: cover;
 }
 
+.about{
+    background-image: url(../images/IMAGENES/2.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 /* .iframe{
     position: relative;
@@ -64,7 +71,7 @@ nav a{
 }
 
 .responsive-iframe{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
@@ -161,7 +168,7 @@ nav a{
 	left: 10%;
 	position: absolute;
 	text-align: center;
-	top:40%;
+	top: 40%;
 	width: 80%
 }
 
@@ -202,8 +209,12 @@ label{
 /*---FOOTER---*/
 
 .footercem{
-    color: black;
+    color: white;
     text-align: right;
+    background-image: url(../images/IMAGENES/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 .footerg {
