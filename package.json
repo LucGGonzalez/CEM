@@ -1,0 +1,24 @@
+{
+  "name": "cem",
+  "version": "1.0.0",
+  "description": "CEM project for CoderHouse\r ## Avances",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css","watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucGGonzalez/CEM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucGGonzalez/CEM/issues"
+  },
+  "homepage": "https://github.com/LucGGonzalez/CEM#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
