@@ -1,11 +1,10 @@
-/* html{
-    font-size: 62.5%;
-} */
-
+*{
+    font-family: Old English;
+}
 
 /*---HEADER---*/
 
-header{
+.headerg{
     background-image: linear-gradient(white, black);
 }
 
@@ -23,7 +22,7 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
     flex-flow: wrap;
 }
@@ -32,13 +31,15 @@ nav a{
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    margin-inline: 10px;
+    margin-inline: 20px;
+    letter-spacing: 3px;
     color: white;
+    text-shadow: 2px 2px 2px red;
 }
 
 /*---MAIN---*/
 
-.main {
+.maing {
     background-image: url(../images/IMAGENES/IMG_5881.JPG);
     height: 600px;
     background-attachment: fixed;
@@ -47,27 +48,22 @@ nav a{
 }
 
 .bckcem{
-    background-color: blue;
+    background-image: url(../images/IMAGENES/1.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.about{
+    background-image: url(../images/IMAGENES/2.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 
 
-
-/* .iframe{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-}
-
-.responsive-iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 35%;
-    height: 35%;
-} */
 
 /*---PARALLAX---*/
 
@@ -157,7 +153,7 @@ nav a{
 	left: 10%;
 	position: absolute;
 	text-align: center;
-	top:40%;
+	top: 40%;
 	width: 80%
 }
 
@@ -197,16 +193,30 @@ label{
 
 /*---FOOTER---*/
 
-footer {
+.footercem{
+    color: white;
+    text-align: right;
+    background-image: url(../images/IMAGENES/1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.footerg {
     background-image: linear-gradient(black, white);
     color: black;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: right;
 }
 
 .footerpx{
     background-image: linear-gradient(black, white);
     color: black;
+    text-align: right;
 }
 
 /*---MEDIAQUERIES---*/
+
+@font-face{
+    font-family: Old English;
+    src: url(../font/OLDENGL.TTF);
+}
