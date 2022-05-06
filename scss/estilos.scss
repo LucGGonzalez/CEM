@@ -1,0 +1,115 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.3fr 2.4fr 0.3fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+  }
+  
+  .main { grid-area: 2 / 1 / 3 / 3; }
+  
+  .section { grid-area: 2 / 1 / 3 / 2; }
+  
+  .section2 { grid-area: 2 / 2 / 3 / 3; }
+  
+  .header { grid-area: 1 / 1 / 2 / 3; }
+  
+  .footer { grid-area: 3 / 1 / 4 / 3; }
+  
+
+//PARALLAX//
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    max-width: 100%;
+    position: relative; }
+  
+  .texto-interior1 h2 {
+    text-shadow: 2px 2px 2px black; }
+  
+  .texto-interior1 {
+    background-color: transparent;
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 80%; }
+  
+  .parrafo1 {
+    text-align: center; }
+  
+  .texto-interior2 h2 {
+    text-shadow: 2px 2px 2px white; }
+  
+  .texto-interior2 {
+    background-color: transparent;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 80%; }
+  
+  .parrafo2 {
+    text-align: center; }
+  
+  .texto-interior3 h2 {
+    text-shadow: 2px 2px 2px white; }
+  
+  .texto-interior3 {
+    background-color: transparent;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 80%; }
+  
+  .parrafo3 {
+    text-align: center; }
+  
+  .texto-interior4 h2 {
+    text-shadow: 2px 2px 2px black; }
+  
+  .texto-interior4 {
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 10%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 80%; }
+  
+  .parrafo4 {
+    text-align: center; }
+  
+  .img-uno {
+    background-image: url(../images/IMAGENES/sanmartin.jpg); }
+  
+  .img-dos {
+    background-image: url(../images/IMAGENES/italia.jpg); }
+  
+  .img-tres {
+    background-image: url(../images/IMAGENES/islandia.jpg); }
+  
+  .img-cuatro {
+    background-image: url(../images/IMAGENES/egipto.jpg); }
+  
+  .texto {
+    color: white;
+    padding: 5%;
+    width: 90%; }
