@@ -9,7 +9,7 @@
         <link rel="shortcut icon" href="images/LOGOS/V4.png">
     </head>
     <body>
-        <header>
+        <header class="header">
             <div class="container">
                 <img src="" alt="7empestadLogo">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -61,13 +61,13 @@
                 <p>Lorem ipsum dolor sit</p>
               </div>
             </section>
-            <section class="cem">
+            <section class="main">
                 <div class="container">
                     <div class="row">
-                        <div class="section">
+                        <div class="">
                             <img src="" alt="ejemplo">
                         </div>
-                        <div class="section2">
+                        <div class="">
                             <h2>
                                 ABOUT
                             </h2>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </section>
-            <section id="cem" class="cem">
+            <section id="cem" class="main">
                 <div class="container">
                     <div class="row">
                         <div class="section2">
@@ -91,13 +91,13 @@
                     </div>
                 </div>
             </section>
-            <section class="roadmap">
+            <section id="roadmap" class="main">
                 <div class="container">
                     <div class="row">
-                        <div class="section">
+                        <div class="">
                             <img src="" alt="ejemplo">
                         </div>
-                        <div class="section2">
+                        <div class="">
                             <h2>
                                 ABOUT
                             </h2>
@@ -163,14 +163,40 @@
             <section id="contact" class="contact">
                 <div class="container">
                     <div class="row">
-                        <div>
-                            <img src="" alt="ejemplo">
-                        </div>
-                        <div>
-                            <h2>
-                                ABOUT
-                            </h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis atque necessitatibus reprehenderit dolore placeat provident blanditiis. Laborum nihil obcaecati modi quod molestias, numquam ipsam commodi? Autem minus eligendi numquam!</p>
+                        <form class="cuadro" action="">
+                            <h1>Sumate a nosotros!</h1>
+                            <h2>Seleccioná la forma de contacto</h2>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">WhatsApp mensaje</label>
+                              </div>
+                              <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Llamada telefónica</label>
+                              </div>
+                              <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">E-mail</label>
+                              </div>
+                              <div class="form-group">
+                                <input type="text" id="typeText" class="form-control" />
+                                <label class="form-label" for="typeText">Nombre completo</label>
+                              </div>
+                              <div class="form-group">
+                                <input type="number" id="typeNumber" class="form-control" />
+                                <label class="form-label" for="typeNumber">Número telefónico</label>
+                              </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text">Nunca compartiremos tus datos.</div>
+                              </div>
+                              <div class="form-group">
+                                <label for="exampleFormControlTextarea1" class="form-label">Contanos brevemente qué querés hacer</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                              </div>
+                              <button type="submit" class="d-grid gap-2 col-6 mx-auto btn btn-light">Enviar</button>
+                        </form>
                         </div>
                     </div>
                 </div>
