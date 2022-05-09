@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container {  display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.5fr;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     gap: 0px 0px;
@@ -16,27 +21,43 @@
       "footer footer";
   }
   
-  .header { grid-area: header; }
-  
+  .header { grid-area: header;
+background-color: black; }
+    .header .logo {
+        width: 150px;
+        height: 150px; }
+
   .carousel { grid-area: carousel; }
   
-  .aboutimg { grid-area: aboutimg; }
+  .aboutimg { grid-area: aboutimg; 
+background-color: red; }
   
-  .about { grid-area: about; }
+  .about { grid-area: about; 
+background-color: gray; }
   
-  .roadmap { grid-area: roadmap; }
+  .roadmap { grid-area: roadmap; 
+background-color: gray; }
   
-  .roadmapimg { grid-area: roadmapimg; }
+  .roadmapimg { grid-area: roadmapimg;
+background-color: red; }
   
-  .crew { grid-area: crew; }
+  .crew { grid-area: crew;
+background-color: black; }
   
-  .nftimg { grid-area: nftimg; }
+  .nftimg { grid-area: nftimg;
+background-color: red; }
   
-  .nft { grid-area: nft; }
+  .nft { grid-area: nft;
+background-color:gray ; }
   
-  .contact { grid-area: contact; }
+  .contact { grid-area: contact;
+color: white;
+background-color: black; }
   
-  .footer { grid-area: footer; }
+  .footer { grid-area: footer;
+background-color: black;
+color: white;
+text-align: end; }
   
   
 
@@ -132,6 +153,6 @@
     background-image: url(../images/IMAGENES/egipto.jpg); }
   
   .texto {
-    color: black;
+    color: white;
     padding: 5%;
     width: 90%; }
