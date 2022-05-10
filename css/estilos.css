@@ -6,7 +6,7 @@
 
 .container {
   display: grid;
-  grid-template-areas: "header header" "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
+  grid-template-areas: "header headernav" "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
 
 .header {
   grid-area: header;
@@ -15,6 +15,10 @@
 .header .logo {
   width: 150px;
   height: 150px; }
+
+.headernav {
+  grid-area: headernav;
+  background-color: black; }
 
 .carousel {
   grid-area: carousel; }

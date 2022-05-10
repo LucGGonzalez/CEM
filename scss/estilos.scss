@@ -13,7 +13,7 @@
     // gap: 0px 0px;
     // grid-auto-flow: row;
     grid-template-areas:
-      "header header"
+      "header headernav"
       "carousel carousel"
       "aboutimg about"
       "roadmap roadmapimg"
@@ -28,6 +28,9 @@ background-color: black; }
     .header .logo {
         width: 150px;
         height: 150px; }
+    
+.headernav { grid-area: headernav;
+background-color: black; }
 
   .carousel { grid-area: carousel; }
   
