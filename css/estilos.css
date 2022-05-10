@@ -23,17 +23,29 @@
 .carousel {
   grid-area: carousel; }
 
+.texto-encima {
+  position: absolute;
+  font-size: 28px;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .aboutimg {
   grid-area: aboutimg;
   background-color: red; }
 
 .about {
   grid-area: about;
-  background-color: gray; }
+  background-color: gray;
+  font-size: 24px;
+  text-align: center; }
 
 .roadmap {
   grid-area: roadmap;
-  background-color: gray; }
+  background-color: gray;
+  font-size: 24px;
+  text-align: center; }
 
 .roadmapimg {
   grid-area: roadmapimg;
@@ -41,7 +53,9 @@
 
 .crew {
   grid-area: crew;
-  background-color: black; }
+  background-color: black;
+  font-size: 24px;
+  text-align: center; }
 
 .nftimg {
   grid-area: nftimg;
@@ -49,12 +63,21 @@
 
 .nft {
   grid-area: nft;
-  background-color: gray; }
+  background-color: gray;
+  font-size: 24px;
+  text-align: center; }
 
 .contact {
   grid-area: contact;
   color: white;
-  background-color: black; }
+  background-color: black;
+  align-items: center; }
+
+form {
+  font-size: 24px; }
+
+form h1 {
+  text-align: center; }
 
 .footer {
   grid-area: footer;
