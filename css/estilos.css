@@ -178,3 +178,6 @@ form h1 {
 @font-face {
   font-family: Goth;
   src: url(../font/Blackbook.otf); }
+
+.nav-link {
+  color: white; }
