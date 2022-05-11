@@ -6,15 +6,11 @@
 
 .containerg {
   display: grid;
-  grid-template-areas: "header headernav" "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
+  grid-template-areas: "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
 
-.header {
-  grid-area: header;
-  background-color: black; }
-
-.header .logo {
-  width: 150px;
-  height: 150px; }
+.toplogo {
+  width: 75px;
+  height: 75px; }
 
 .headernav {
   grid-area: headernav;
