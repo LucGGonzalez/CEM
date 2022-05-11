@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: Goth; }
 
-.container {
+.containerg {
   display: grid;
   grid-template-areas: "header headernav" "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
 
