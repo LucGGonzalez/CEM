@@ -5,6 +5,16 @@
     font-family: Goth;
 }
 
+@mixin imagenes{
+    width: 100;
+}
+
+.informacion{
+    background-color: gray;
+    font-size: 24px;
+    text-align: center;
+}
+
 .containerg {  display: grid;
     grid-template-areas:
       "carousel carousel"
@@ -23,6 +33,10 @@
 .headernav { grid-area: headernav;
 background-color: black; }
 
+.nav-link{
+    color: white;
+}
+
   .carousel { grid-area: carousel; }
     .texto-encima {
         position: absolute;
@@ -34,20 +48,24 @@ background-color: black; }
   }
   
   .aboutimg { grid-area: aboutimg; 
-background-color: red; }
+background-color: red;
+    img{
+        @include imagenes;
+    }
+}
   
   .about { grid-area: about; 
-background-color: gray;
-font-size: 24px;
-text-align: center; }
+@extend .informacion }
   
   .roadmap { grid-area: roadmap; 
-background-color: gray;
-font-size: 24px;
-text-align: center; }
+@extend .informacion }
   
   .roadmapimg { grid-area: roadmapimg;
-background-color: red; }
+background-color: red;
+img{
+    @include imagenes;
+    }
+}
   
   .crew { grid-area: crew;
 background-color: black;
@@ -55,12 +73,14 @@ font-size: 24px;
 text-align: center; }
   
   .nftimg { grid-area: nftimg;
-background-color: red; }
+background-color: red;
+    img{
+    @include imagenes;
+        }
+    }
   
   .nft { grid-area: nft;
-background-color:gray;
-font-size: 24px;
-text-align: center; }
+@extend .informacion }
   
   .contact { grid-area: contact;
 color: white;
@@ -179,8 +199,4 @@ text-align: end; }
 @font-face{
     font-family: Goth;
     src: url(../font/Blackbook.otf);
-}
-
-.nav-link{
-    color: white;
 }

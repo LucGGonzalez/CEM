@@ -4,6 +4,11 @@
   box-sizing: border-box;
   font-family: Goth; }
 
+.informacion, .about, .roadmap, .nft {
+  background-color: gray;
+  font-size: 24px;
+  text-align: center; }
+
 .containerg {
   display: grid;
   grid-template-areas: "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
@@ -15,6 +20,9 @@
 .headernav {
   grid-area: headernav;
   background-color: black; }
+
+.nav-link {
+  color: white; }
 
 .carousel {
   grid-area: carousel; }
@@ -30,22 +38,20 @@
 .aboutimg {
   grid-area: aboutimg;
   background-color: red; }
+  .aboutimg img {
+    width: 100; }
 
 .about {
-  grid-area: about;
-  background-color: gray;
-  font-size: 24px;
-  text-align: center; }
+  grid-area: about; }
 
 .roadmap {
-  grid-area: roadmap;
-  background-color: gray;
-  font-size: 24px;
-  text-align: center; }
+  grid-area: roadmap; }
 
 .roadmapimg {
   grid-area: roadmapimg;
   background-color: red; }
+  .roadmapimg img {
+    width: 100; }
 
 .crew {
   grid-area: crew;
@@ -56,12 +62,11 @@
 .nftimg {
   grid-area: nftimg;
   background-color: red; }
+  .nftimg img {
+    width: 100; }
 
 .nft {
-  grid-area: nft;
-  background-color: gray;
-  font-size: 24px;
-  text-align: center; }
+  grid-area: nft; }
 
 .contact {
   grid-area: contact;
@@ -178,6 +183,3 @@ form h1 {
 @font-face {
   font-family: Goth;
   src: url(../font/Blackbook.otf); }
-
-.nav-link {
-  color: white; }
