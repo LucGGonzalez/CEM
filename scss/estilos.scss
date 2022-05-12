@@ -5,9 +5,15 @@
     font-family: Goth;
 }
 
+
 @mixin imagenes{
     width: 100;
 }
+
+$titulos: (
+    cem: rgb(255, 0, 0),
+    roadmap: rgb(0, 0, 0),
+);
 
 .informacion{
     background-color: gray;
@@ -45,6 +51,7 @@ background-color: black; }
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        color: map-get($titulos, cem);
   }
   
   .aboutimg { grid-area: aboutimg; 
@@ -200,3 +207,4 @@ text-align: end; }
     font-family: Goth;
     src: url(../font/Blackbook.otf);
 }
+
