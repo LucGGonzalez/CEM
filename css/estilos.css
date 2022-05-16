@@ -184,3 +184,18 @@ form h1 {
 @font-face {
   font-family: Goth;
   src: url(../font/Blackbook.otf); }
+
+@media (max-width: 1024px) {
+  .containerg {
+    display: grid;
+    grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
+
+@media (max-width: 768px) {
+  .containerg {
+    display: grid;
+    grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
+
+@media (max-width: 368px) {
+  .containerg {
+    display: grid;
+    grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
