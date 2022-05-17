@@ -21,7 +21,8 @@ $titulos: (
     text-align: center;
 }
 
-.containerg {  display: grid;
+.containerg {  margin-top: 91px;
+    display: grid;
     grid-template-areas:
       "carousel carousel"
       "aboutimg about"
@@ -239,7 +240,9 @@ text-align: end; }
 }
 
 @media (max-width: 368px){
-  .containerg {  display: grid;
+  .containerg {  
+    margin-top: 91px;
+    display: grid;
     grid-template-areas:
       "carousel"
       "aboutimg"

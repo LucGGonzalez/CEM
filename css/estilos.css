@@ -10,6 +10,7 @@
   text-align: center; }
 
 .containerg {
+  margin-top: 91px;
   display: grid;
   grid-template-areas: "carousel carousel" "aboutimg about" "roadmap roadmapimg" "crew crew" "nftimg nft" "contact contact" "footer footer"; }
 
@@ -197,5 +198,6 @@ form h1 {
 
 @media (max-width: 368px) {
   .containerg {
+    margin-top: 91px;
     display: grid;
     grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
