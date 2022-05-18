@@ -1,13 +1,23 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: Goth; }
+  box-sizing: border-box; }
 
 .informacion, .about, .roadmap, .nft {
-  background-color: gray;
+  color: white;
   font-size: 24px;
+  text-align: center;
+  text-shadow: 2px 2px 2px black; }
+
+.subtitulo, h2 {
+  font-family: Goth;
+  font-size: 48px;
   text-align: center; }
+
+.fondo, .about, .roadmap, .nft {
+  background-image: url(../images/IMAGENES/fondo2.jpeg);
+  background-position: center;
+  background-size: cover; }
 
 .containerg {
   margin-top: 91px;
@@ -30,12 +40,14 @@
 
 .texto-encima {
   position: absolute;
-  font-size: 28px;
+  font-size: 32px;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: red; }
+  color: red;
+  font-family: Goth;
+  text-shadow: 2px 2px 2px white; }
 
 .aboutimg {
   grid-area: aboutimg;
@@ -185,6 +197,11 @@ form h1 {
 @font-face {
   font-family: Goth;
   src: url(../font/Blackbook.otf); }
+
+@media (max-width: 1200px) {
+  .containerg {
+    display: grid;
+    grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
 
 @media (max-width: 1024px) {
   .containerg {

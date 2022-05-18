@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Goth;
 }
-
 
 @mixin imagenes{
     width: 100;
@@ -16,9 +14,23 @@ $titulos: (
 );
 
 .informacion{
-    background-color: gray;
+    color: white;
     font-size: 24px;
     text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+.subtitulo{
+  font-family: Goth;
+  font-size: 48px;
+  text-align: center;
+}
+
+.fondo{
+  background-image: url(../images/IMAGENES/fondo2.jpeg);
+  background-position: center;
+  background-size: cover;
+  // opacity: 0.6;
 }
 
 .containerg {  margin-top: 91px;
@@ -33,6 +45,10 @@ $titulos: (
       "footer footer";
   }
   
+h2{
+  @extend .subtitulo
+}
+
 .toplogo {
     width: 75px;
     height: 75px; }
@@ -47,12 +63,14 @@ background-color: black; }
   .carousel { grid-area: carousel; }
     .texto-encima {
         position: absolute;
-        font-size: 28px;
+        font-size: 32px;
         text-align: center;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: map-get($titulos, cem);
+        font-family: Goth;
+        text-shadow: 2px 2px 2px white;
   }
   
   .aboutimg { grid-area: aboutimg; 
@@ -62,11 +80,13 @@ background-color: red;
     }
 }
   
-  .about { grid-area: about; 
-@extend .informacion }
+  .about { grid-area: about;
+  @extend .informacion;
+  @extend .fondo }
   
   .roadmap { grid-area: roadmap; 
-@extend .informacion }
+@extend .informacion;
+@extend .fondo; }
   
   .roadmapimg { grid-area: roadmapimg;
 background-color: red;
@@ -88,7 +108,8 @@ background-color: red;
     }
   
   .nft { grid-area: nft;
-@extend .informacion }
+@extend .informacion;
+@extend .fondo; }
   
   .contact { grid-area: contact;
 color: white;
@@ -207,6 +228,21 @@ text-align: end; }
 @font-face{
     font-family: Goth;
     src: url(../font/Blackbook.otf);
+}
+
+@media (max-width: 1200px){
+  .containerg {  display: grid;
+    grid-template-areas:
+      "carousel"
+      "aboutimg"
+      "about"
+      "roadmap"
+      "roadmapimg"
+      "crew"
+      "nftimg"
+      "nft"
+      "contact"
+      "footer";}
 }
 
 @media (max-width: 1024px){
