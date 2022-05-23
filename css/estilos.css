@@ -15,9 +15,10 @@
   text-align: center; }
 
 .fondo, .about, .roadmap, .nft {
-  background-image: url(../images/IMAGENES/fondo2.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/IMAGENES/fondo.webp);
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 .containerg {
   margin-top: 91px;
@@ -50,8 +51,7 @@
   text-shadow: 2px 2px 2px white; }
 
 .aboutimg {
-  grid-area: aboutimg;
-  background-color: red; }
+  grid-area: aboutimg; }
   .aboutimg img {
     width: 100; }
 
@@ -62,8 +62,7 @@
   grid-area: roadmap; }
 
 .roadmapimg {
-  grid-area: roadmapimg;
-  background-color: red; }
+  grid-area: roadmapimg; }
   .roadmapimg img {
     width: 100; }
 
@@ -74,8 +73,7 @@
   text-align: center; }
 
 .nftimg {
-  grid-area: nftimg;
-  background-color: red; }
+  grid-area: nftimg; }
   .nftimg img {
     width: 100; }
 
