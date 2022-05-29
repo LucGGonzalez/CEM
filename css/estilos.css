@@ -192,6 +192,11 @@ form h1 {
   padding: 5%;
   width: 90%; }
 
+.form-horizontal {
+  display: block;
+  width: 50%;
+  margin: 0 auto; }
+
 @font-face {
   font-family: Goth;
   src: url(../font/Blackbook.otf); }
