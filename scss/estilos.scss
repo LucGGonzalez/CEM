@@ -81,11 +81,11 @@ background-color: black; }
   
   .about { grid-area: about;
   @extend .informacion;
-  @extend .fondo }
+  @extend .fondo; }
   
   .roadmap { grid-area: roadmap; 
-@extend .informacion;
-@extend .fondo; }
+  @extend .informacion;
+  @extend .fondo; }
   
   .roadmapimg { grid-area: roadmapimg;
 img{
@@ -105,8 +105,8 @@ text-align: center; }
     }
   
   .nft { grid-area: nft;
-@extend .informacion;
-@extend .fondo; }
+  @extend .informacion;
+  @extend .fondo; }
   
   .contact { grid-area: contact;
 color: white;
@@ -232,7 +232,7 @@ text-align: end; }
     src: url(../font/Blackbook.otf);
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1559px){
   .containerg {  display: grid;
     grid-template-areas:
       "carousel"

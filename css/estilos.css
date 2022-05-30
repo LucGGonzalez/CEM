@@ -201,7 +201,7 @@ form h1 {
   font-family: Goth;
   src: url(../font/Blackbook.otf); }
 
-@media (max-width: 1200px) {
+@media (max-width: 1559px) {
   .containerg {
     display: grid;
     grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
