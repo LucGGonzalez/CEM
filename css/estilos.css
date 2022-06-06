@@ -41,14 +41,14 @@
 
 .texto-encima {
   position: absolute;
-  font-size: 32px;
+  font-size: 48px;
   text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: red;
   font-family: Goth;
-  text-shadow: 2px 2px 2px white; }
+  text-shadow: 2px 2px 2px black; }
 
 .aboutimg {
   grid-area: aboutimg; }
@@ -113,70 +113,82 @@ form h1 {
 .texto-interior1 {
   background-color: transparent;
   color: red;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   left: 10%;
   position: absolute;
   text-align: center;
   top: 40%;
-  width: 80%; }
+  width: 80%;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
 
 .parrafo1 {
   text-align: center; }
 
 .texto-interior2 h2 {
-  text-shadow: 2px 2px 2px white; }
+  text-shadow: 2px 2px 2px blue; }
 
 .texto-interior2 {
   background-color: transparent;
-  color: black;
-  font-size: 2rem;
+  color: white;
+  font-size: 4rem;
   font-weight: bold;
   left: 10%;
   position: absolute;
   text-align: center;
   top: 40%;
-  width: 80%; }
+  width: 80%;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
 
 .parrafo2 {
   text-align: center; }
 
 .texto-interior3 h2 {
-  text-shadow: 2px 2px 2px white; }
+  text-shadow: 2px 2px 2px black; }
 
 .texto-interior3 {
   background-color: transparent;
-  color: black;
-  font-size: 2rem;
+  color: white;
+  font-size: 4rem;
   font-weight: bold;
   left: 10%;
   position: absolute;
   text-align: center;
   top: 40%;
-  width: 80%; }
+  width: 80%;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
 
 .parrafo3 {
   text-align: center; }
 
 .texto-interior4 h2 {
-  text-shadow: 2px 2px 2px black; }
+  text-shadow: 2px 2px 2px white; }
 
 .texto-interior4 {
   background-color: transparent;
-  color: white;
-  font-size: 2rem;
+  color: black;
+  font-size: 4rem;
   font-weight: bold;
   left: 10%;
   position: absolute;
   text-align: center;
   top: 40%;
-  width: 80%; }
+  width: 80%;
+  animation-duration: 2s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite; }
 
 .parrafo4 {
   text-align: center; }
 
 .img-uno {
-  background-image: url(../images/IMAGENES/sanmartin.jpg); }
+  background-image: url(../images/IMAGENES/sanmartin2.webp); }
 
 .img-dos {
   background-image: url(../images/IMAGENES/italia.jpg); }
@@ -221,3 +233,9 @@ form h1 {
     margin-top: 91px;
     display: grid;
     grid-template-areas: "carousel" "aboutimg" "about" "roadmap" "roadmapimg" "crew" "nftimg" "nft" "contact" "footer"; } }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
